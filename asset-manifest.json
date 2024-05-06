@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/examen/static/css/main.479b047a.css",
-    "main.js": "/examen/static/js/main.e82baf2e.js",
+    "main.js": "/examen/static/js/main.40b9ab40.js",
     "static/media/lego-bg.webp": "/examen/static/media/lego-bg.60cd5917a6e21ad8ad2f.webp",
     "static/media/legopiece.jpeg": "/examen/static/media/legopiece.acbe1a5eb6279284d778.jpeg",
     "static/media/baseplate.webp": "/examen/static/media/baseplate.57de5673919590ec3d9c.webp",
     "static/media/brick-logo.png": "/examen/static/media/brick-logo.002fd04c90873470fa88.png",
     "index.html": "/examen/index.html",
     "main.479b047a.css.map": "/examen/static/css/main.479b047a.css.map",
-    "main.e82baf2e.js.map": "/examen/static/js/main.e82baf2e.js.map"
+    "main.40b9ab40.js.map": "/examen/static/js/main.40b9ab40.js.map"
   },
   "entrypoints": [
     "static/css/main.479b047a.css",
-    "static/js/main.e82baf2e.js"
+    "static/js/main.40b9ab40.js"
   ]
 }

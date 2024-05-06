@@ -1,0 +1,34 @@
+.zoom-container h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.zoom-btn-container {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.zoom-btn {
+  width: 50%;
+  padding: 8px 0;
+  border: 2px solid rgb(65, 57, 57);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(65, 57, 57);
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 3px 3px rgb(65, 57, 57);
+}
+.zoom-btn:hover {
+  box-shadow: 4px 4px rgb(65, 57, 57);
+  cursor: pointer;
+}
+
+.zoom-btn:active {
+  box-shadow: 2px 2px rgb(65, 57, 57);
+}

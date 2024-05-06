@@ -1,0 +1,24 @@
+header {
+  min-width: 100vw;
+  padding: 24px 16px;
+  display:  flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid rgba(176, 168, 168, 0.326);
+  background-color: rgb(255, 250, 250);
+}
+
+.logo {
+  background-image: url(../assets/brick-logo.png);
+  background-size: cover;
+  background-position: center;
+  width: 254px;
+  height: 70px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  /* align-self: last baseline; */
+}

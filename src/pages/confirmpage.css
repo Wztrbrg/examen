@@ -1,0 +1,116 @@
+.confirm-page-wrapper {
+  width: 100%;
+  min-height: calc(100vh - 119px);
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-content {
+  width: 100%;
+  max-width: 1920px;
+  height: calc(100vh - 119px);
+  min-height: 1042px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 16px;
+  background-color: rgb(255, 250, 250);
+  border-left: 1px solid rgba(176, 168, 168, 0.326);
+  border-right: 1px solid rgba(176, 168, 168, 0.326);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .left-section,
+.right-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 128px; */
+
+
+.left-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+}
+
+.right-section {
+  width: 40%;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm-content .divider {
+  border-left: 1px solid rgba(176, 168, 168, 0.326);
+  height: 100%;
+}
+
+.confirm-canvas {
+  border: 3px solid rgb(65, 57, 57);
+  box-shadow: 5px 5px rgb(65, 57, 57);
+  /* max-height: calc(100vh - 128px); */
+  align-self: center;
+}
+
+.left-section-heading,
+.right-section-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.left-section-para,
+.right-section-para {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.right-section .card {
+  position: relative;
+  display: flex;
+  border: 1px solid rgba(176, 168, 168, 0.326);
+  border-radius: 8px;
+  background-color: rgba(236, 236, 236, 0.245);
+  padding: 16px;
+  gap: 16px;
+}
+
+.right-section .card img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border: 1px solid rgba(176, 168, 168, 0.326);
+  border-radius: 4px;
+}
+
+.right-section .card .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.right-section .card .info {
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 90%;
+}
+
+.right-section .card .amount {
+  position: absolute;
+  right: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}

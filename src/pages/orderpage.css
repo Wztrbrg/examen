@@ -1,0 +1,93 @@
+.order-page-wrapper {
+  width: 100%;
+  min-height: calc(100vh - 119px);
+  display: flex;
+  justify-content: center;
+}
+
+.order-content {
+  padding: 48px 0;
+  width: 100%;
+  max-width: 1920px;
+  height: calc(100vh - 119px);
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: rgb(255, 250, 250);
+  border-left: 1px solid rgba(176, 168, 168, 0.326);
+  border-right: 1px solid rgba(176, 168, 168, 0.326);
+}
+
+.order-details,
+.payment-details {
+  width: 800px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid rgba(176, 168, 168, 0.326);
+  border-radius: 8px;
+  background-color: rgb(250, 244, 244);
+}
+
+.order-header h1,
+.payment-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.order-header p,
+.payment-header p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-container label {
+  font-weight: 700;
+}
+
+.input-container input {
+  background-color: rgb(255, 250, 250);
+  border: 1px solid rgba(176, 168, 168, 0.326);
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.contact-container,
+.delivery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-container h2,
+.delivery-container h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.name-container,
+.adress-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.name-container .input-container,
+.adress-container .input-container {
+  width: 50%;
+}
+
+.order-content .landing-btn {
+  width: 800px;
+}

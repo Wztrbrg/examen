@@ -1,0 +1,15 @@
+.canvas-page-wrapper {
+  height: calc(100vh - 119px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  max-width: 1920px;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid rgba(176, 168, 168, 0.326);
+  border-right: 1px solid rgba(176, 168, 168, 0.326);
+}

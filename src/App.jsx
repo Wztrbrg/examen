@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import CanvasPage from "./pages/CanvasPage";
 import ConfirmPage from "./pages/ConfirmPage"
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <OrderIdProvider>
           <CurCanvasProvider>
             <Routes>
@@ -24,7 +24,7 @@ function App() {
             </Routes>
           </CurCanvasProvider>
         </OrderIdProvider>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

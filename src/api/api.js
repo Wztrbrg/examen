@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3001";
+const url = "https://examen-8mvq.onrender.com";
 
 //GET
 export const getOrderItems = () => axios.get(url + "/orderItems");
